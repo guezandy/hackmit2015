@@ -23,8 +23,4 @@ $(document).ready(function(){
             }
         });
     };
-
-    if (!$('.login-content')[0]) {
-        notify('Welcome back to Fylm', 'inverse');
-    }
 });

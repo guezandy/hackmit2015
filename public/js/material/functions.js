@@ -84,6 +84,7 @@ $(document).ready(function(){
                 $elem2 = '#menu-trigger';
 
                 $('#chat-trigger').removeClass('open');
+                $('#sidebar').removeClass('open');
 
                 if (!$('#chat').hasClass('toggled')) {
                     $('#header').toggleClass('sidebar-toggled');
